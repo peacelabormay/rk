@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root 
+{
+    --text-color: #1A535C;
+    --button-color: #ffe66d;
+    --back: #f7fff7;
+}
+
+body {
+    background-color: var(--back);
+    max-width: 1200px;
+    
+}
