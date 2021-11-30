@@ -3,12 +3,33 @@
 :root 
 {
     --text-color: #1A535C;
-    --button-color: #ffe66d;
+    --card-color: #ffe66d;
     --back: #f7fff7;
+    --header-footer: #4ECDC4;
 }
 
 body {
     background-color: var(--back);
     max-width: 1200px;
-    
+    color: var(--text-color);
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.card {
+    flex:1 200px;
+    margin: 10px, 10px, 10px, 10px;
+    width: 300;
+    background-color: var(--card-color);
 }
